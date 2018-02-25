@@ -1,6 +1,8 @@
 readme.md:
 	rm readme.md
- 	touch readme.md	
+ 	touch readme.md
+	bold=$(tput bold)
+	normal=$(tput sgr0)
 	echo -e "This is ${bold}MAHSNJ ${normal} Guessing Game \n" >> readme.md
 	echo .... >> readme.md
 	echo -e  " File created date on $(date) \n" >> readme.md
