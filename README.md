@@ -1,15 +1,5 @@
-all: README.md
-
-
-README.md: guessinggame.sh mahsnj.txt
-	echo "# Grade my Assignment: UNIXWORKBRENCH \n" > README.md
-	echo "Date and time of make run: \c" >> README.md
-	date >> README.md
-	echo "\nThe number of lines in guessinggame.sh: \c" >> README.md
-	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
-
-mahsnj.txt: 
-	echo "None"
-
-clean:
-	rm README.md
+# The Unix Workbench:  Guessing Game Assignment
+02-25-2018 07:51:10
+The file 'guessinggame.sh' contains the following number of lines:
+0
+0
