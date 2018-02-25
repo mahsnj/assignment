@@ -1,3 +1,7 @@
+#!/usr/bin/sh
+# File Name : guessinggame.sh
+# Author mahsnj
+# Created date Feb 25 2018
 function files {
    arch=$(ls|wc -l)
    echo $arch
