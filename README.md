@@ -1,4 +1,3 @@
-readme.md:
-	echo "Guessing Game" > readme.md
-	date >> readme.md
-	wc -l guessinggame.sh | egrep -o "[0-9]+" >> readme.md
+Guessing Game
+Sun, Feb 25, 2018  8:42:48 AM
+20
